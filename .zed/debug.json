@@ -1,0 +1,15 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "label": "DEVELOP",
+    "adapter": "Java",
+    "request": "launch",
+    "mainClass": "com.base_team.BaseTeamApplication",
+    "projectName": "base_team",
+    "vmArgs": "-Dspring.profiles.active=dev",
+    "cwd": "$ZED_WORKTREE_ROOT"
+  }
+]
